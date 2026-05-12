@@ -1,10 +1,72 @@
-<section class="hero">
-  <video autoplay muted loop playsinline class="hero-video">
-    <source src="assets/hero-video.mp4" type="video/mp4">
-  </video>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Emergency Center</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <a href="#" class="logo">Emergency Center</a>
 
-  <div class="hero-overlay">
-    <h1>Emergency Center</h1>
-    <p>...</p>
-  </div>
-</section>
+    <nav class="site-nav">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#resources">Resources</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <video autoplay muted loop playsinline class="hero-video">
+        <source src="assets/images/emergency.mp4" type="video/mp4" />
+      </video>
+
+      <div class="hero-overlay">
+        <h1>Emergency Center</h1>
+        <p>A simplified static archive of the original full-stack emergency resource project.</p>
+        <a href="#about" class="hero-button">Explore Project</a>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <h2>About This Project</h2>
+      <p>
+        This project was originally built as a bootcamp full-stack application.
+        This version preserves the design and concept using simple HTML, CSS, and JavaScript.
+      </p>
+    </section>
+
+    <section id="resources" class="section">
+      <h2>Emergency Resources</h2>
+      <div class="cards">
+        <article class="card">
+          <h3>Find Help</h3>
+          <p>Static resource section for emergency-related information.</p>
+        </article>
+
+        <article class="card">
+          <h3>Preparedness</h3>
+          <p>Basic safety and preparation information can be added here.</p>
+        </article>
+
+        <article class="card">
+          <h3>Community Support</h3>
+          <p>A place to preserve the original project’s community support concept.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <h2>Project Archive</h2>
+      <p>
+        This static version is maintained for portfolio documentation and long-term preservation.
+      </p>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

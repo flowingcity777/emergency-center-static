@@ -166,10 +166,9 @@ body {
 }
 
 .card {
-  background: #123048;
+  background: #061826;
   border: 1px solid rgba(255,255,255,0.08);
   border-radius: 20px;
-  backdrop-filter: blur(10px);
 }
 
 .card:hover {
@@ -189,7 +188,7 @@ body {
   width: 100%;
   padding: 2rem 1.5rem;
   text-align: center;
-  background: rgba(8, 34, 54, 0.92);
+  background: #04121d;
   color: #aaa;
   font-size: 0.95rem;
   line-height: 1.7;

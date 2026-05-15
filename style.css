@@ -30,8 +30,8 @@ body {
   justify-content: space-between;
   align-items: center;
   z-index: 100;
-  background: rgba(0, 0, 0, 0.45);
-  backdrop-filter: blur(8px);
+  background: rgba(8, 34, 54, 0.92);
+  backdrop-filter: blur(10px);
 }
 
 .logo {

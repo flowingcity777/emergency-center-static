@@ -189,7 +189,7 @@ body {
   width: 100%;
   padding: 2rem 1.5rem;
   text-align: center;
-  background: #0a0a0a;
+  background: rgba(8, 34, 54, 0.92);
   color: #aaa;
   font-size: 0.95rem;
   line-height: 1.7;

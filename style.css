@@ -35,11 +35,19 @@ body {
 }
 
 .logo {
+  display: flex;
+  align-items: center;
+  gap: 14px;
   color: white;
   text-decoration: none;
+  font-weight: 800;
   font-size: 1.4rem;
-  font-weight: bold;
-  letter-spacing: 1px;
+}
+
+.logo img {
+  height: 72px;
+  width: auto;
+  display: block;
 }
 
 .site-nav {

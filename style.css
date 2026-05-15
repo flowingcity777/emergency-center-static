@@ -166,14 +166,15 @@ body {
 }
 
 .card {
-  background: #1c1c1c;
-  padding: 2rem;
-  border-radius: 18px;
-  transition: transform 0.3s ease;
+  background: #123048;
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 20px;
+  backdrop-filter: blur(10px);
 }
 
 .card:hover {
-  transform: translateY(-5px);
+  transform: translateY(-4px);
+  transition: 0.25s ease;
 }
 
 .card h3 {

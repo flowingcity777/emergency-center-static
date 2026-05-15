@@ -67,11 +67,13 @@ body {
 
 .nav-wrapper {
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  justify-content: space-between;
+  gap: 40px;
 }
 
 .site-nav {
+  margin-left: auto;
   display: flex;
   gap: 32px;
 }

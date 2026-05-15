@@ -22,7 +22,7 @@ body {
 /* HEADER */
 
 .site-header {
-  position: fixed;
+  position: absolute;
   top: 0;
   width: 100%;
   padding: 1.2rem 3rem;
@@ -45,7 +45,7 @@ body {
 }
 
 .logo img {
-  height: 72px;
+  height: 64px;
   width: auto;
   display: block;
 }
